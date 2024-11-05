@@ -32,9 +32,10 @@ body {
   flex-direction: column;
   gap: 40px;
 }
+
 .header-section {
   display: flex;
-  align-items: center; /* Align items vertically centered */
+  align-items: flex-start; /* Align items vertically centered */
   justify-content: space-between; /* Space between title and image */
   padding: 20px;
   background-color: var(--card-bg);
@@ -188,4 +189,27 @@ h2 {
 .blog-button:hover {
   background-color: #48a9d9;
   transform: scale(1.05);
+}
+
+.show-mobile {
+  display: none;
+}
+
+.show-desktop {
+  display: default;    
+}
+
+@media (max-width: 768px) {
+  .profile-picture {
+    width: 90px; /* Adjust size as needed */
+    height: 90px; /* Adjust size as needed */
+  }
+
+  .show-mobile {
+    display: initial;
+  }
+
+  .show-desktop {
+    display: none;    
+  }
 }

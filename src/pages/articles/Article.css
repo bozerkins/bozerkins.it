@@ -116,3 +116,9 @@
 .back-button-link:active {
   color: #1e1e1e; /* Ensures link states maintain the friendly color */
 }
+
+@media (max-width: 768px) {
+  .article-title {
+    font-size: 1.9rem;
+  }
+}
