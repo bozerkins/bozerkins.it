@@ -1,0 +1,85 @@
+/* src/pages/Blog.css */
+
+.blog {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #e0e0e0;
+  }
+  
+  .blog-header {
+    display: flex;
+    justify-content: space-between; /* Space between title and button */
+    align-items: center; /* Vertically center the items */
+    margin-bottom: 20px; /* Space below the header */
+  }
+  
+  h1 {
+    color: var(--accent-color);
+    font-size: 2rem;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .blog-button {
+    background-color: var(--accent-color);
+    color: #1e1e1e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .blog-button:hover {
+    background-color: #48a9d9;
+    transform: scale(1.05);
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  .blog-item {
+    display: flex;
+    flex-direction: column; /* Stack link and date */
+    align-items: flex-start; /* Ensure contents are left-aligned */
+  }
+  
+  .blog-link {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .blog-link:hover {
+    color: #48a9d9;
+  }
+  
+  .blog-date {
+    color: #a0a0a0; /* Subtle color for dates */
+    font-size: 0.9rem; /* Smaller font size for dates */
+    margin-top: 5px; /* Space between link and date */
+  }
+  
+  .coming-soon {
+    margin-top: 20px; /* Space above the message */
+    font-size: 1.1rem; /* Slightly larger font size for emphasis */
+    color: #d0d0d0; /* Subtle color for the message */
+    text-align: center; /* Center align the message */
+  }
+  
+
+.blog-button:visited,
+.blog-button:link,
+.blog-button:active {
+  color: #1e1e1e; /* Ensures link states maintain the friendly color */
+}
+
+.blog-button:hover {
+  background-color: #48a9d9;
+  transform: scale(1.05);
+}
