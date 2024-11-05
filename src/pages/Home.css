@@ -27,7 +27,6 @@ body {
 .home {
   width: 100%;
   max-width: 700px;
-  margin: 20px;
   padding: 20px;
   display: flex;
   flex-direction: column;

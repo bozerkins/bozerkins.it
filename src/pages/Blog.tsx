@@ -8,7 +8,7 @@ const Blog: React.FC = () => {
     <div className="blog">
       <div className="blog-header">
         <h1>Blog</h1>
-        <Link to="/" className="blog-button">Back to Homepage</Link>
+        <Link to="/" className="blog-button">Homepage</Link>
       </div>
 
       <p>Welcome to my blog! I've taken up writing. Enjoy, or else</p>
