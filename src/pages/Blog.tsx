@@ -11,7 +11,7 @@ const Blog: React.FC = () => {
         <Link to="/" className="blog-button">Back to Homepage</Link>
       </div>
 
-      <p>Welcome to my blog! Check out my articles below.</p>
+      <p>Welcome to my blog! I've taken up writing. Enjoy, or else</p>
       
       <div className="blog-list">
         <div className="blog-item">
@@ -24,7 +24,7 @@ const Blog: React.FC = () => {
       </div>
 
       {/* Message about upcoming articles */}
-      <p className="coming-soon">More articles coming!</p>
+      <p className="coming-soon">More posts coming!</p>
     </div>
   );
 };

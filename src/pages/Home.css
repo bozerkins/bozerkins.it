@@ -94,10 +94,14 @@ h2 {
   text-align: left; /* Keep text left-aligned */
 }
 
-.about p,
+.about-text p,
 .project p {
   font-size: 1rem;
   line-height: 1.6;
+}
+
+.about-text p {
+  margin: 1rem 0;
 }
 
 .social-links {
