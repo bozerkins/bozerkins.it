@@ -18,11 +18,12 @@ const Home: React.FC = () => {
       <section className="about">
         <div className="about-text">
           <h2>About Me</h2>
-          <p>Hello! I’m Bogdans, and I'm a software engineer. Sort of. </p>
-          <p>I started my journey in software development back in the 6th grade and took my first steps into professional development in grade 11. It’s been a fun and rewarding experience so far!</p>
+          <p>Hello! I’m Bogdans, and I'm a software engineer. </p>
+          <p>I started my journey in software development back in the 6th grade and took my first steps into professional development in grade 11. It’s been a fun and rewarding ride so far!</p>
           <p>With over a decade of industry experience, I have a pasion for crafting quality software and designing efficient architectures. I believe in the importance of readable codebases and the power of data, analytics, logs, and metrics to drive decisions.</p>
           <p>I love helping coders become better coders.</p>
           <p>I love delivering what customers need most and seeing the delight in peoples eyes.</p>
+          <p>My moto is: doing less with more.</p>
           <div className="social-links">
             <a href="https://github.com/bozerkins" target="_blank" rel="noopener noreferrer">
               GitHub
@@ -65,7 +66,7 @@ const Home: React.FC = () => {
       <section className="hobbies">
         <h2>Hobbies & Passions</h2>
         <ul>
-          <li>Key passion: my lovely wife {"<3"}</li>
+          <li>My lovely wife {"<3"}</li>
           <li>Photography</li>
           <li>Traveling</li>
           <li>Swimming</li>
