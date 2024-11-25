@@ -38,26 +38,34 @@ const Home: React.FC = () => {
       <section className="projects">
         <h2>Recent Projects</h2>
         <div className="project">
-          <h3>Clickhouse PHP Client</h3>
-          <p>It is what is sounds like. A client to call ClickHouse database written in PHP.</p>
-          <p><strong>What's Cool:</strong> One of the first PHP clients for ClickHouse.</p>
-          <a href="https://github.com/bozerkins/clickhouse-client" target="_blank" rel="noopener noreferrer">
+          <h3>Explore Tables</h3>
+          <p>React library to render pivot tables for in-house data analysis and ad-hoc reports.</p>
+          <p><strong>What's Cool:</strong> Allows overriding table components for interactive feature implementation, like sorting or dynamic rendering. </p>
+          <a href="https://bozerkins.github.io/explore-tables/#/interactive" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+        <div className="project">
+          <h3>Argo Watcher</h3>
+          <p>Deployment management system for ArgoCD image updater. </p>
+          <p><strong>What's Cool:</strong> Written in Go, this creates a unique bridge between ArgoCD GitOps approach and CI/CD deployment automation.</p>
+          <a href="https://argo-watcher.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">
             View on GitHub
           </a>
         </div>
         <div className="project">
           <h3>Terraform dkron provider</h3>
           <p>Provider to provision dkron jobs with Terraform. Especially useful for CI/CD automation of the setup.</p>
-          <p><strong>What's Cool:</strong> I wasn't the initial author, but I did a bit of rework and upgraded this quite a bit.</p>
+          <p><strong>What's Cool:</strong> This is the recommended dkron terraform plugin for management jobs through automation.</p>
           <a href="https://github.com/bozerkins/terraform-provider-dkron" target="_blank" rel="noopener noreferrer">
             View on GitHub
           </a>
         </div>
         <div className="project">
-          <h3>Argo Watcher</h3>
-          <p>Helping out a friend with improving the project. This is deployment management system for ArgoCD image updater. </p>
-          <p><strong>What's Cool:</strong> Written in Go, this creates a unique bridge between ArgoCD GitOps approach and CI/CD deployment automation.</p>
-          <a href="https://github.com/shini4i/argo-watcher" target="_blank" rel="noopener noreferrer">
+          <h3>Clickhouse PHP Client</h3>
+          <p>A client to call ClickHouse database written in PHP.</p>
+          <p><strong>What's Cool:</strong> One of the first PHP clients for ClickHouse.</p>
+          <a href="https://github.com/bozerkins/clickhouse-client" target="_blank" rel="noopener noreferrer">
             View on GitHub
           </a>
         </div>
